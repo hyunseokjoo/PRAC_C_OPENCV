@@ -7,4 +7,6 @@ using namespace std;
 int main(int ac, char** av) {
 	Imread ir;
 	ir.start();
+
+	return 0;
 }   
