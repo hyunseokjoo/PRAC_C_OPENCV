@@ -1,6 +1,27 @@
+# ignore dot files/directories
+.*
+!.gitignore
 
-# Created by https://www.toptal.com/developers/gitignore/api/c++,opencv
-# Edit at https://www.toptal.com/developers/gitignore?templates=c++,opencv
+*.dll
+*.autosave
+*.pyc
+*.user
+*~
+Thumbs.db
+tags
+tegra/
+bin/
+*.sdf
+*.opensdf
+*.obj
+*.stamp
+*.depend
+*.rule
+*.tmp
+*/debug
+*.suo
+*.log
+*.tlog
 
 ### C++ ###
 # Prerequisites
@@ -45,4 +66,8 @@
 */cmake_install.cmake
 .DS_Store
 
-# End of https://www.toptal.com/developers/gitignore/api/c++,opencv
+
+build
+node_modules
+CMakeSettings.json
+xcuserdata/
