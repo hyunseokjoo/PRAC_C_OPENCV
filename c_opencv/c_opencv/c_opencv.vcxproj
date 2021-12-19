@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="Capture.cpp" />
     <ClCompile Include="concat.cpp" />
+    <ClCompile Include="cvtColor.cpp" />
     <ClCompile Include="imread.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="resize.cpp" />
@@ -28,6 +29,7 @@
   <ItemGroup>
     <ClInclude Include="Capture.h" />
     <ClInclude Include="concat.h" />
+    <ClInclude Include="cvtColor.h" />
     <ClInclude Include="imread.h" />
     <ClInclude Include="resize.h" />
   </ItemGroup>

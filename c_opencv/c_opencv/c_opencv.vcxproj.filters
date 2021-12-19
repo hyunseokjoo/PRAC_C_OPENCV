@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\concat">
       <UniqueIdentifier>{e9e5b9cf-0a23-4a9b-a2b7-e5b8d3c2ae69}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\cvtColor">
+      <UniqueIdentifier>{2ce7035a-fdb3-443f-8eae-6951afb5fbbc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -42,6 +45,9 @@
     <ClCompile Include="concat.cpp">
       <Filter>소스 파일\concat</Filter>
     </ClCompile>
+    <ClCompile Include="cvtColor.cpp">
+      <Filter>소스 파일\cvtColor</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="imread.h">
@@ -55,6 +61,9 @@
     </ClInclude>
     <ClInclude Include="concat.h">
       <Filter>소스 파일\concat</Filter>
+    </ClInclude>
+    <ClInclude Include="cvtColor.h">
+      <Filter>소스 파일\cvtColor</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
