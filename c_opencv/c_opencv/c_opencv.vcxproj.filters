@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\capture">
       <UniqueIdentifier>{8c05f4ab-0757-4893-a8f3-5e502a2e8abb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\concat">
+      <UniqueIdentifier>{e9e5b9cf-0a23-4a9b-a2b7-e5b8d3c2ae69}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -36,6 +39,9 @@
     <ClCompile Include="Capture.cpp">
       <Filter>소스 파일\capture</Filter>
     </ClCompile>
+    <ClCompile Include="concat.cpp">
+      <Filter>소스 파일\concat</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="imread.h">
@@ -46,6 +52,9 @@
     </ClInclude>
     <ClInclude Include="Capture.h">
       <Filter>소스 파일\capture</Filter>
+    </ClInclude>
+    <ClInclude Include="concat.h">
+      <Filter>소스 파일\concat</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
