@@ -16,6 +16,12 @@
     <Filter Include="소스 파일\imread">
       <UniqueIdentifier>{8fb6f870-12af-46bd-b80d-34bfadb2446b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\resize">
+      <UniqueIdentifier>{1dc668f2-81a6-4093-9ee5-d18a8617911e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\capture">
+      <UniqueIdentifier>{8c05f4ab-0757-4893-a8f3-5e502a2e8abb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -24,10 +30,22 @@
     <ClCompile Include="imread.cpp">
       <Filter>소스 파일\imread</Filter>
     </ClCompile>
+    <ClCompile Include="resize.cpp">
+      <Filter>소스 파일\resize</Filter>
+    </ClCompile>
+    <ClCompile Include="Capture.cpp">
+      <Filter>소스 파일\capture</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="imread.h">
       <Filter>소스 파일\imread</Filter>
+    </ClInclude>
+    <ClInclude Include="resize.h">
+      <Filter>소스 파일\resize</Filter>
+    </ClInclude>
+    <ClInclude Include="Capture.h">
+      <Filter>소스 파일\capture</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
