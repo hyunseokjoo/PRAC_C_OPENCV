@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\cvtColor">
       <UniqueIdentifier>{2ce7035a-fdb3-443f-8eae-6951afb5fbbc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\binary">
+      <UniqueIdentifier>{1eaea994-8a6e-4317-98e5-3951b64d41cf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -48,6 +51,12 @@
     <ClCompile Include="cvtColor.cpp">
       <Filter>소스 파일\cvtColor</Filter>
     </ClCompile>
+    <ClCompile Include="threshold.cpp">
+      <Filter>소스 파일\binary</Filter>
+    </ClCompile>
+    <ClCompile Include="adaptThreshold.cpp">
+      <Filter>소스 파일\binary</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="imread.h">
@@ -64,6 +73,12 @@
     </ClInclude>
     <ClInclude Include="cvtColor.h">
       <Filter>소스 파일\cvtColor</Filter>
+    </ClInclude>
+    <ClInclude Include="threshold.h">
+      <Filter>소스 파일\binary</Filter>
+    </ClInclude>
+    <ClInclude Include="adaptThreshold.h">
+      <Filter>소스 파일\binary</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

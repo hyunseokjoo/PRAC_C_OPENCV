@@ -5,6 +5,8 @@
 #include "resize.h"
 #include "concat.h"
 #include "cvtColor.h"
+#include "threshold.h"
+#include "adaptThreshold.h"
 
 using namespace std;
 
@@ -21,8 +23,14 @@ int main(int ac, char** av) {
 	//Concat cc;
 	//cc.start();
 
-	CvtColor cvtc;
-	cvtc.start();
+	//CvtColor cvtc;
+	//cvtc.start();
+
+	//Threshold th;
+	//th.start();
+
+	AdaptThreshold ath;
+	ath.start();
 
 	return 0;
 }   

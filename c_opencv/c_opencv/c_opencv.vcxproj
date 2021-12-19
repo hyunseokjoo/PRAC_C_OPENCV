@@ -19,19 +19,23 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="adaptThreshold.cpp" />
     <ClCompile Include="Capture.cpp" />
     <ClCompile Include="concat.cpp" />
     <ClCompile Include="cvtColor.cpp" />
     <ClCompile Include="imread.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="resize.cpp" />
+    <ClCompile Include="threshold.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="adaptThreshold.h" />
     <ClInclude Include="Capture.h" />
     <ClInclude Include="concat.h" />
     <ClInclude Include="cvtColor.h" />
     <ClInclude Include="imread.h" />
     <ClInclude Include="resize.h" />
+    <ClInclude Include="threshold.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
