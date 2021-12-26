@@ -9,6 +9,8 @@
 #include "adaptThreshold.h"
 #include "blur.h"
 #include "affine.h"
+#include "dilate.h"
+#include "erode.h"
 
 using namespace std;
 
@@ -37,8 +39,14 @@ int main(int ac, char** av) {
 	//Blur br;
 	//br.start();
 
-	Affine af;
-	af.start();
+	//Affine af;
+	//af.start();
+
+	//Dilate dl;
+	//dl.start();
+
+	//Erode ed;
+	//ed.start();
 
 	return 0;
 }   

@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\tramsForm">
       <UniqueIdentifier>{4d9afd3b-b4ea-439c-83e1-13a3baa668a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\mophology">
+      <UniqueIdentifier>{228d8746-f258-489d-a92d-fb91e3ecc8d8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -63,6 +66,15 @@
     <ClCompile Include="affine.cpp">
       <Filter>소스 파일\tramsForm</Filter>
     </ClCompile>
+    <ClCompile Include="perspective.cpp">
+      <Filter>소스 파일\tramsForm</Filter>
+    </ClCompile>
+    <ClCompile Include="dilate.cpp">
+      <Filter>소스 파일\mophology</Filter>
+    </ClCompile>
+    <ClCompile Include="erode.cpp">
+      <Filter>소스 파일\mophology</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="imread.h">
@@ -88,6 +100,15 @@
     </ClInclude>
     <ClInclude Include="affine.h">
       <Filter>소스 파일\tramsForm</Filter>
+    </ClInclude>
+    <ClInclude Include="Perspective.h">
+      <Filter>소스 파일\tramsForm</Filter>
+    </ClInclude>
+    <ClInclude Include="dilate.h">
+      <Filter>소스 파일\mophology</Filter>
+    </ClInclude>
+    <ClInclude Include="erode.h">
+      <Filter>소스 파일\mophology</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
