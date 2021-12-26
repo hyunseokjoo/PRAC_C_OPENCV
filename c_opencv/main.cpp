@@ -7,6 +7,8 @@
 #include "cvtColor.h"
 #include "threshold.h"
 #include "adaptThreshold.h"
+#include "blur.h"
+#include "affine.h"
 
 using namespace std;
 
@@ -29,8 +31,14 @@ int main(int ac, char** av) {
 	//Threshold th;
 	//th.start();
 
-	AdaptThreshold ath;
-	ath.start();
+	//AdaptThreshold ath;
+	//ath.start();
+
+	//Blur br;
+	//br.start();
+
+	Affine af;
+	af.start();
 
 	return 0;
 }   

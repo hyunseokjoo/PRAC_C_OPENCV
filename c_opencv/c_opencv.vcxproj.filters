@@ -22,14 +22,17 @@
     <Filter Include="소스 파일\capture">
       <UniqueIdentifier>{8c05f4ab-0757-4893-a8f3-5e502a2e8abb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\concat">
-      <UniqueIdentifier>{e9e5b9cf-0a23-4a9b-a2b7-e5b8d3c2ae69}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\cvtColor">
       <UniqueIdentifier>{2ce7035a-fdb3-443f-8eae-6951afb5fbbc}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\binary">
       <UniqueIdentifier>{1eaea994-8a6e-4317-98e5-3951b64d41cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\blur">
+      <UniqueIdentifier>{d79ca6e7-578b-4142-be0a-b604b958ba13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\tramsForm">
+      <UniqueIdentifier>{4d9afd3b-b4ea-439c-83e1-13a3baa668a2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -45,9 +48,6 @@
     <ClCompile Include="Capture.cpp">
       <Filter>소스 파일\capture</Filter>
     </ClCompile>
-    <ClCompile Include="concat.cpp">
-      <Filter>소스 파일\concat</Filter>
-    </ClCompile>
     <ClCompile Include="cvtColor.cpp">
       <Filter>소스 파일\cvtColor</Filter>
     </ClCompile>
@@ -56,6 +56,12 @@
     </ClCompile>
     <ClCompile Include="adaptThreshold.cpp">
       <Filter>소스 파일\binary</Filter>
+    </ClCompile>
+    <ClCompile Include="blur.cpp">
+      <Filter>소스 파일\blur</Filter>
+    </ClCompile>
+    <ClCompile Include="affine.cpp">
+      <Filter>소스 파일\tramsForm</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -68,9 +74,6 @@
     <ClInclude Include="Capture.h">
       <Filter>소스 파일\capture</Filter>
     </ClInclude>
-    <ClInclude Include="concat.h">
-      <Filter>소스 파일\concat</Filter>
-    </ClInclude>
     <ClInclude Include="cvtColor.h">
       <Filter>소스 파일\cvtColor</Filter>
     </ClInclude>
@@ -79,6 +82,12 @@
     </ClInclude>
     <ClInclude Include="adaptThreshold.h">
       <Filter>소스 파일\binary</Filter>
+    </ClInclude>
+    <ClInclude Include="blur.h">
+      <Filter>소스 파일\blur</Filter>
+    </ClInclude>
+    <ClInclude Include="affine.h">
+      <Filter>소스 파일\tramsForm</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
