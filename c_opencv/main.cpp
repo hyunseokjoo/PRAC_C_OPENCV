@@ -11,6 +11,7 @@
 #include "affine.h"
 #include "dilate.h"
 #include "erode.h"
+#include "contour.h"
 
 using namespace std;
 
@@ -47,6 +48,9 @@ int main(int ac, char** av) {
 
 	//Erode ed;
 	//ed.start();
+
+	Contour ct;
+	ct.start();
 
 	return 0;
 }   

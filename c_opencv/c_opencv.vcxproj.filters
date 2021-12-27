@@ -34,8 +34,14 @@
     <Filter Include="소스 파일\tramsForm">
       <UniqueIdentifier>{4d9afd3b-b4ea-439c-83e1-13a3baa668a2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\mophology">
+    <Filter Include="소스 파일\morphology">
       <UniqueIdentifier>{228d8746-f258-489d-a92d-fb91e3ecc8d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\morphologyEx">
+      <UniqueIdentifier>{5de8d6dc-7b46-4b31-a23a-e38cf785140c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\contour">
+      <UniqueIdentifier>{d00fd70e-1c3e-4485-a0aa-093992ae5024}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -70,10 +76,16 @@
       <Filter>소스 파일\tramsForm</Filter>
     </ClCompile>
     <ClCompile Include="dilate.cpp">
-      <Filter>소스 파일\mophology</Filter>
+      <Filter>소스 파일\morphology</Filter>
     </ClCompile>
     <ClCompile Include="erode.cpp">
-      <Filter>소스 파일\mophology</Filter>
+      <Filter>소스 파일\morphology</Filter>
+    </ClCompile>
+    <ClCompile Include="morphologyEx.cpp">
+      <Filter>소스 파일\morphologyEx</Filter>
+    </ClCompile>
+    <ClCompile Include="contour.cpp">
+      <Filter>소스 파일\contour</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -105,10 +117,16 @@
       <Filter>소스 파일\tramsForm</Filter>
     </ClInclude>
     <ClInclude Include="dilate.h">
-      <Filter>소스 파일\mophology</Filter>
+      <Filter>소스 파일\morphology</Filter>
     </ClInclude>
     <ClInclude Include="erode.h">
-      <Filter>소스 파일\mophology</Filter>
+      <Filter>소스 파일\morphology</Filter>
+    </ClInclude>
+    <ClInclude Include="morphologyEx.h">
+      <Filter>소스 파일\morphologyEx</Filter>
+    </ClInclude>
+    <ClInclude Include="contour.h">
+      <Filter>소스 파일\contour</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

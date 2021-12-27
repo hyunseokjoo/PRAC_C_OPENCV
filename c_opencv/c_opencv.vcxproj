@@ -23,11 +23,13 @@
     <ClCompile Include="affine.cpp" />
     <ClCompile Include="blur.cpp" />
     <ClCompile Include="Capture.cpp" />
+    <ClCompile Include="contour.cpp" />
     <ClCompile Include="cvtColor.cpp" />
     <ClCompile Include="dilate.cpp" />
     <ClCompile Include="erode.cpp" />
     <ClCompile Include="imread.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="morphologyEx.cpp" />
     <ClCompile Include="perspective.cpp" />
     <ClCompile Include="resize.cpp" />
     <ClCompile Include="threshold.cpp" />
@@ -37,10 +39,12 @@
     <ClInclude Include="affine.h" />
     <ClInclude Include="blur.h" />
     <ClInclude Include="Capture.h" />
+    <ClInclude Include="contour.h" />
     <ClInclude Include="cvtColor.h" />
     <ClInclude Include="dilate.h" />
     <ClInclude Include="erode.h" />
     <ClInclude Include="imread.h" />
+    <ClInclude Include="morphologyEx.h" />
     <ClInclude Include="Perspective.h" />
     <ClInclude Include="resize.h" />
     <ClInclude Include="threshold.h" />
